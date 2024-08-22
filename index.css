@@ -60,13 +60,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 80px;
-  gap: 85px;
+  gap: 55px;
   width: 100%;
 }
 .btns {
   display: flex;
   gap: 10px;
-  width: 130px;
+  width: 160px;
 }
 .wrapper {
   background-color: #ffffff;
@@ -226,7 +226,7 @@ body {
 }
 
 .edit-button:hover {
-  width: 120px;
+  width: 100px;
   border-radius: 5px;
   transition-duration: 0.3s;
   background-color: skyblue;
@@ -288,7 +288,7 @@ body {
 }
 
 .delete-button:hover {
-  width: 120px;
+  width: 100px;
   border-radius: 5px;
   transition-duration: 0.3s;
   background-color: skyblue;
@@ -378,7 +378,7 @@ body {
 }
 
 .done-button:hover {
-  width: 120px;
+  width: 100px;
   border-radius: 5px;
   transition-duration: 0.3s;
   background-color: #088f8f;
@@ -630,15 +630,20 @@ body,
   font-weight: 700;
   display: flex;
   justify-content: center;
+  font-style: italic;
+  border: none;
+  background: none;
 }
 .useremail {
   margin-top: 20px;
   color: rgb(109, 197, 231);
   font-size: 30px;
+  font-style: italic;
 }
 .userphonenumber {
   color: rgb(109, 197, 231);
   font-size: 30px;
+  font-style: italic;
 }
 .userimgeditbtn:hover .userimgeditbtn-svgIcon {
   width: 20px;
